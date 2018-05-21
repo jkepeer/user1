@@ -22,4 +22,4 @@ curl http://localhost:82/index.html - результат должен содер
 
 
 
-docker pull jkepeer1/test1
+docker pull jkepeer1/user1
