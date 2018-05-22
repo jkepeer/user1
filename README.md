@@ -1,6 +1,4 @@
 
-собираем так примерно - docker build . -t ms/user1
-
 1. Создание приложения в докере
 
 Создать 2 докер-приложения {username}/user1, {username}/user2
@@ -24,5 +22,6 @@ curl http://localhost:81/index.html - результат должен содер
 curl http://localhost:82/index.html - результат должен содержать "Hello User2!"
 
 
+docker build  -t jkepeer1/user1 .
 
 docker pull jkepeer1/user1
